@@ -1,0 +1,37 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+   boolean tr;
+        int a;
+         int b;
+        boolean isBigger(int m,int n)
+        {
+            a=m;
+            b=n;
+           if(a>b)
+           {
+             tr=true;
+               System.out.println(tr);
+           }
+            else
+            {
+            tr=false; 
+                System.out.println(tr);
+            }
+
+        return (tr);
+        }
+         public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+             int m=sc.nextInt();
+             int n=sc.nextInt();
+             Solution obj=new Solution();
+             obj.isBigger(m,n);
+        
+    }
+}
